@@ -1,0 +1,182 @@
+/* google font  */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Poppins:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+h1,
+h2 {
+  font-size: 48px;
+  font-weight: 600;
+}
+
+/* header start  */
+header {
+  background-color: #264653;
+  color: white;
+}
+.extra-p {
+  font-size: 14px;
+  font-weight: 600;
+}
+p {
+  font-size: 16px;
+  font-weight: 300;
+}
+.btn {
+  background-color: #e76f51;
+  font-size: 18px;
+  font-weight: 500;
+  color: white;
+  padding: 7px 25px;
+}
+.modal-title {
+  color: #e76f51;
+}
+.modal-body {
+  color: #264653;
+}
+/* header end */
+
+/* gray scale img start  */
+#feture {
+  font-size: 14px;
+  font-weight: 600;
+  color: #e76f51;
+}
+
+h2 {
+  color: #001f2b;
+}
+.gray-img {
+  cursor: pointer;
+}
+.gray-scale {
+  filter: grayscale(100%);
+  transition: 1s;
+}
+.gray-scale:hover {
+  filter: grayscale(0%);
+}
+/* gray scale img end */
+
+/* cleints review section start  */
+#clients {
+  color: #e76f51;
+}
+.fa-star {
+  color: #e77c40;
+}
+#clients-name {
+  padding-top: 15px;
+  color: #23a6f0;
+  font-size: 18px;
+  font-weight: 600;
+}
+#clients-work {
+  color: #001f2b;
+  font-size: 14px;
+  font-weight: 600;
+}
+#cleint-3 {
+  border-radius: 50%;
+
+  border: 2px solid #adb5bd;
+}
+/* cleints review section end */
+
+/* faq section start  */
+.faq-head {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: #001f2b;
+}
+.faq-article {
+  font-family: "Inter", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+}
+.accordion-button {
+  background-color: ;
+}
+.accordion-button:not(.collapsed) {
+  background-color: white;
+}
+.accordion-header {
+  border: 1px solid rgba(0, 0, 0, 0.125);
+}
+/* faq section end  h2#headingTwo */
+
+/* location section start  */
+
+.loca {
+  height: 500px;
+}
+.location-1 {
+  background-color: #264653;
+}
+.map {
+  border: 2px solid #b6b5b5;
+  /* position: relative; */
+  margin-left: -150px;
+  /* left: -150px; */
+}
+/* location section end */
+
+/* contact section start   */
+.contacts {
+  background-color: #f2f2f2;
+}
+.contact {
+  border-radius: 7px;
+  background-color: white;
+}
+.con-img {
+  border-radius: 7px 0px 0px 7px;
+}
+.contact-img {
+  background: linear-gradient(
+      to right,
+      rgba(3, 3, 3, 0.78),
+      rgba(8, 8, 8, 0.78)
+    ),
+    url("images/bike-1.png") center center/ cover no-repeat;
+}
+.single-contact {
+  line-height: 10px;
+}
+.single-contact a {
+  color: white;
+  text-decoration: none;
+}
+form > label,
+input {
+  display: block;
+  width: 100%;
+  border: 1px solid rgb(165, 165, 165);
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 7px;
+}
+form label {
+  font-size: 16px;
+  font-weight: 500;
+}
+form input::placeholder {
+  font-weight: 400;
+  font-size: 14px;
+}
+/* contact section end */
+
+/* Mediary query  */
+@media screen (max-width: 600px) {
+  .map {
+    margin-left: 0px;
+  }
+}
